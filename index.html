@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1, width=device-width">
+<link rel="stylesheet" href="./home.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sigmar:wght@400&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Integral CF:wght@400;700&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mona Sans:wght@600&display=swap" />
+
+<style>
+.projects {
+  	position: absolute;
+  	top: 0px;
+  	left: 502px;
+  	font-size: 64px;
+  	font-family: Sigmar;
+}
+.frame-icon {
+  	position: absolute;
+  	top: 129px;
+  	left: 0px;
+  	width: 611px;
+  	height: 317px;
+  	overflow: hidden;
+  	object-fit: contain;
+}
+.frame-wrapper {
+  	position: absolute;
+  	top: 850px;
+  	left: 684px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	background-color: #ee3438;
+  	width: 600px;
+  	height: 600px;
+  	overflow: hidden;
+}
+.orbit {
+  	position: absolute;
+  	height: 9.35%;
+  	top: 35.17%;
+  	left: calc(50% - 218px);
+  	letter-spacing: -0.05em;
+  	line-height: 115.02%;
+  	text-transform: capitalize;
+  	color: #6441f9;
+  	display: inline-block;
+  	width: 416.5px;
+}
+.tm {
+  	position: absolute;
+  	height: 2.13%;
+  	top: 44.53%;
+  	left: calc(50% + 178.76px);
+  	font-size: 24.36px;
+  	letter-spacing: -0.05em;
+  	line-height: 115.02%;
+  	text-transform: capitalize;
+  	display: inline-block;
+  	width: 38.2px;
+}
+.discover-connect-thrive {
+  	position: absolute;
+  	top: 356px;
+  	left: calc(50% - 177px);
+  	font-size: 30.37px;
+  	letter-spacing: -0.05em;
+  	line-height: 115.02%;
+  	text-transform: capitalize;
+  	font-weight: 600;
+  	font-family: 'Mona Sans';
+  	display: inline-block;
+  	width: 333.3px;
+  	height: 33px;
+}
+.orbit-parent {
+  	position: absolute;
+  	top: 2190px;
+  	left: 684px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	background-color: #6441f9;
+  	width: 600px;
+  	height: 600px;
+  	overflow: hidden;
+  	cursor: pointer;
+  	font-size: 131.74px;
+  	color: #fff;
+  	font-family: 'Integral CF';
+}
+.sahayasarigelogo-icon {
+  	position: absolute;
+  	top: 205px;
+  	left: calc(50% - 260px);
+  	width: 520px;
+  	height: 189px;
+  	object-fit: cover;
+}
+.sahayasarigelogo-wrapper {
+  	position: absolute;
+  	top: 171px;
+  	left: 0px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	background-color: #000;
+  	width: 600px;
+  	height: 600px;
+  	overflow: hidden;
+  	cursor: pointer;
+}
+.group-child {
+  	position: absolute;
+  	top: 1520px;
+  	left: 0px;
+  	width: 600px;
+  	height: 600px;
+  	overflow: hidden;
+}
+.immerse-yourself-in-container1 {
+  	width: 100%;
+}
+.immerse-yourself-in-container {
+  	position: absolute;
+  	top: 80px;
+  	left: 4.05px;
+  	display: flex;
+  	align-items: center;
+  	width: 622.9px;
+}
+.game-design {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	font-size: 36px;
+  	text-decoration: underline;
+  	font-weight: 700;
+  	color: inherit;
+  	display: flex;
+  	align-items: center;
+  	width: 299.8px;
+}
+.immerse-yourself-in-the-tumult-parent {
+  	position: absolute;
+  	top: 960px;
+  	left: 13px;
+  	width: 627px;
+  	height: 355px;
+}
+.application-design {
+  	position: absolute;
+  	top: 1667px;
+  	left: 684px;
+  	font-size: 36px;
+  	text-decoration: underline;
+  	font-weight: 700;
+  	color: inherit;
+}
+.application-design1 {
+  	position: absolute;
+  	top: 2365px;
+  	left: 0px;
+  	font-size: 36px;
+  	text-decoration: underline;
+  	font-weight: 700;
+  	color: inherit;
+}
+.tired-of-losing-container {
+  	position: absolute;
+  	top: 1747px;
+  	left: 684px;
+  	display: flex;
+  	align-items: center;
+  	width: 600px;
+}
+.many-students-struggle-container {
+  	position: absolute;
+  	top: 2444px;
+  	left: 3px;
+  	display: flex;
+  	align-items: center;
+  	width: 597px;
+}
+.despite-the-availability-container {
+  	position: absolute;
+  	top: 80px;
+  	left: 0px;
+  	display: flex;
+  	align-items: center;
+  	width: 600px;
+  	height: 292px;
+}
+.service-design {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	font-size: 36px;
+  	text-decoration: underline;
+  	font-weight: 700;
+  	color: inherit;
+}
+.despite-the-availability-of-ho-parent {
+  	position: absolute;
+  	top: 292px;
+  	left: 695px;
+  	width: 600px;
+  	height: 372px;
+}
+.projects-parent {
+  	position: absolute;
+  	top: 111px;
+  	left: 79px;
+  	width: 1295px;
+  	height: 2790px;
+}
+.div {
+  	width: 100%;
+  	position: relative;
+  	background-color: #fff;
+  	height: 3130px;
+  	overflow: hidden;
+  	cursor: pointer;
+  	text-align: left;
+  	font-size: 20px;
+  	color: #000;
+  	font-family: Unbounded;
+}
+
+
+.contact-section {
+    background-color: #f4c84a; /* Adjust the color to match the image */
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .contact-section h2 {
+    font-size: 2em;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .contact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+  
+  .contact-item i {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+  
+  .contact-item span,
+  .contact-item a {
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .contact-item a:hover {
+    text-decoration: underline;
+  }</style>
+</head>
+<body>
+	<!-- Navigation Bar -->
+    <div class="1">
+        <div class="option-switcher-wrapper">
+            <nav>
+                <div class="links">
+                    <a href="#home" class="active">Home</a>
+                    <a href="#about">About Me</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact Me</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+   
+    <!-- Sections for smooth scrolling -->
+    <div id="home" style="height: 100vh; background-color: #ffffff;">
+        <div class="content-container">
+            <div class="hellu">
+                <span>H</span>
+                <span class="e">e</span>
+                <span class="l">L</span>
+                <span class="l1">L</span>
+                <span class="e">u </span>
+                <span>!</span>
+                </div>
+                <div class="im-pranathid">I’M Pranathi.D</div>
+                </div>
+                
+    </div>
+    <div id="about" style="height: 100vh; background-color: #f9e79f;">
+        <div class="about-container">
+        <div class="hey-there-as-a-design-student-parent">
+            <div class="hey-there-as-container">
+            <span class="hey-there-as-container1">
+            <p class="hey-there-as">Hey there! As a design student with a passion for creating accessible and inclusive designs, I'm always on the lookout for new challenges and opportunities to grow. I'm a bit of a trend-spotter that way XD. </p>
+            <p class="hey-there-as">Oh! and not to mention, from lip-gloss to sunscreen to a secret stash of snacks! I’ve got it all covered. Name it and you shall get it. Almost like your very own Doremon or a local grandma who has it all in her bag. </p>
+            <p class="hey-there-as">No wonder my friends call me Pranny Granny!</p>
+            <p class="so-if-youre">So, if you're looking for a designer who's not only creative and loves team work but also has a knack for keeping you fueled and fabulous, look no further!</p>
+            </span>
+            </div>
+            <div class="about-me">About Me!</div>
+            <div class="group-child">
+            </div>
+            <img class="mask-group-icon" alt="" src="images/face.png">
+            <div class="group-item">
+            </div>
+    </div>
+
+    <div class="div" id="container">
+        <div class="projects-parent">
+              <div class="projects">Projects</div>
+              <div class="frame-wrapper">
+                    <img class="frame-icon" alt="" src="Frame.png">
+                    
+              </div>
+              <div class="orbit-parent" id="frameContainer1">
+                    <div class="orbit">
+                          <b>Orb</b>
+                          <span>it</span>
+                    </div>
+                    <div class="tm">tm</div>
+                    <div class="discover-connect-thrive">discover. connect. thrive.</div>
+              </div>
+              <div class="sahayasarigelogo-wrapper" id="frameContainer2">
+                    <img class="sahayasarigelogo-icon" alt="" src="SahayaSarigeLogo.png">
+                    
+              </div>
+              <img class="group-child" alt="" src="Frame 16.svg">
+              
+              <div class="immerse-yourself-in-the-tumult-parent">
+                    <div class="immerse-yourself-in-container">
+                          <span class="immerse-yourself-in-container1">
+                                <span>Immerse yourself in the tumultuous events of the October Revolution of 1917 with</span>
+                                <b> Izmenyat, a strategic and engaging tabletop game designed for players aged 13-16</b>
+                                <span>. Step into the shoes of a Bolshevik revolutionary, navigate the complexities of political intrigue, and shape the course of history. Izmenyat offers a unique and engaging tabletop gaming </span>
+                                <b>experience that combines strategy, history, and immersive storytelling.</b>
+                                <span> Whether you're a history buff or simply enjoy a good game, Izmenyat is sure to captivate and challenge you.</span>
+                          </span>
+                    </div>
+                    <a class="game-design" href="https://drive.google.com/drive/folders/1IneaSWblBQJ1oX3Ti0r9thNvAjfZuKcV?usp=drive_link" target="_blank"></a>
+              </div>
+              <a class="application-design" href="https://www.figma.com/design/7DwdyVW8OaGCjbeOZP1JHb/UIUX-Health-App?node-id=0-1&t=C4z114WhHcQL90Q7-1" target="_blank"></a>
+              <a class="application-design1" href="https://www.figma.com/design/xkC479IIc1P2Q3Nh7Be6UX/Orbit-%3A-ISA1?node-id=0-1&t=4RqJa0mhhzmTAijT-1" target="_blank"></a>
+              <div class="tired-of-losing-container">
+                    <span class="immerse-yourself-in-container1">
+                          <span>Tired of losing track of your fitness goals? Track Away is here to help! This innovative app is your one-stop solution for staying on top of your health and well-being. Stay organized and motivated with Track Away. </span>
+                          <b>Track your fitness goals, manage medication reminders, monitor hydration levels, count your steps, manage screen time, and boost productivity. </b>
+                          <span>Take control of your health and well-being!</span>
+                    </span>
+              </div>
+              <div class="many-students-struggle-container">
+                    <span class="immerse-yourself-in-container1">
+                          <span>Many students struggle to develop extracurricular skills due to the lack of a supportive community. This can hinder their personal and professional growth. To address this challenge, we've created </span>
+                          <b>Orbit, a college-based community platform</b>
+                          <span> </span>
+                          <b>designed to foster extracurricular activities, connect students with like-minded peers,</b>
+                          <span> and provide opportunities for skill development and practical experience.</span>
+                    </span>
+              </div>
+              <div class="despite-the-availability-of-ho-parent">
+                    <div class="despite-the-availability-container">
+                          <span class="immerse-yourself-in-container1">
+                                <b>Despite the availability of homeless shelters in Bengaluru, many individuals remain unaware of these vital resources, </b>
+                                <span>leading to unmet needs within the homeless population. This lack of awareness creates a significant barrier to accessing essential services and support. To address this challenge, we've come up with Sahaya Saarige, a platform designed to bridge the information gap and connect homeless individuals with the resources they need. </span>
+                                <b>Do check out what Sahaya Saarige offers to the individuals in need!</b>
+                          </span>
+                    </div>
+                    <a class="service-design" href="https://www.figma.com/design/XPfnV7yzRpOLqVrxyP3y42/TRANS-WRONGS-ACTIVIST?node-id=9-2&t=dprNXSSpQNzgGO60-1" target="_blank"></a>
+              </div>
+        </div>
+  </div>
+  
+  
+  
+  
+  <script>
+        var frameContainer1 = document.getElementById("frameContainer1");
+        if(frameContainer1) {
+              frameContainer1.addEventListener("click", function (e) {
+                    // Add your code here
+              });
+        }
+        
+        var frameContainer2 = document.getElementById("frameContainer2");
+        if(frameContainer2) {
+              frameContainer2.addEventListener("click", function (e) {
+                    // Add your code here
+              });
+        }
+        
+        var container = document.getElementById("container");
+        if(container) {
+              container.addEventListener("click", function (e) {
+                    // Add your code here
+              });
+        }</script>
+
+    <div id="projects" style="height: 100vh; background-color: #ffffff;"> 
+    </div>
+    <div class="contact-section">
+        <h2>Get In Touch!</h2>
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-phone-alt"></i>
+            <span>+91 9740727864</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <span>pranathid638@gmail.com</span>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/pranathi-d-6248a6276" target="_blank">www.linkedin.com/in/pranathi-d-6248a6276</a>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-behance"></i>
+            <span>Behance</span>
+          </div>
+        </div>
+      </div>
+
+      
+
+    <!-- JavaScript for interactive behavior -->
+    <script>
+        // Make navigation interactive by adding active class on click and smooth scroll
+        const navLinks = document.querySelectorAll('nav a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                // Remove active class from all links
+                navLinks.forEach(nav => nav.classList.remove('active'));
+
+                // Add active class to the clicked link
+                this.classList.add('active');
+
+                // Smooth scroll to the section
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Highlight the active link as the user scrolls through the page
+        window.addEventListener('scroll', () => {
+            let fromTop = window.scrollY;
+
+            navLinks.forEach(link => {
+                let section = document.querySelector(link.getAttribute('href'));
+
+                if (
+                    section.offsetTop <= fromTop &&
+                    section.offsetTop + section.offsetHeight > fromTop
+                ) {
+                    link.classList.add('active');
+                } else {
+                    link.classList.remove('active');
+                }
+            });
+        });
+    </script>
+    </div>
+</body>
+</html>

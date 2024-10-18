@@ -1,0 +1,162 @@
+/* Reset defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body overflow is vertical */
+body {
+    overflow-y: scroll; /* Ensures vertical scrolling */
+    overflow-x: hidden; /* No horizontal scrolling */
+}
+
+/* Fixed Navigation Bar */
+.option-switcher-wrapper {
+    position: fixed;
+    top: 5vh;
+    left: 30vw;
+    background-color: #feefc8;
+    padding: 20px;
+    text-align: center;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+/* Links inside the Navbar */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.links a {
+    text-decoration: none;
+    font-family: 'Unbounded', sans-serif;
+    font-size: 18px;
+    color: #596075;
+    padding: 10px 20px;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect for links */
+.links a:hover {
+    background-color: #fccf56;
+    color: white;
+}
+
+/* Active link styling */
+.links a.active {
+    background-color: #fccf56;
+    color: white;
+}
+
+/* Sections have padding to ensure they are visible beneath the fixed navbar */
+section {
+    padding-top: 120px; /* Accounts for fixed navbar height */
+    height: 100vh; /* Full viewport height */
+}
+
+
+.content-container {
+    margin: 215px;
+    line-height: normal;
+    justify-content: center;
+}
+
+
+
+.e {
+    color: #3b8dbd;
+}
+.l {
+    color: #fccf56;
+}
+.l1 {
+    color: #050605;
+}
+.hellu {
+    position: relative;
+    font-size: 96px;
+    font-family: Sigmar;
+    text-align: left;
+    display: inline-block;
+    color: #f14338;
+}
+
+.im-pranathid {
+    width: 253px;
+    position: relative;
+    font-size: 32px;
+    font-family: Sigmar;
+    color: #1a1818;
+    text-align: left;
+    display: inline-block;
+}
+
+.hey-there-as {
+    margin: 0;
+}
+.so-if-youre {
+    margin: 0;
+    white-space: pre-wrap;
+}
+.hey-there-as-container1 {
+    width: 100%;
+}
+.hey-there-as-container {
+    position: absolute;
+    top: 243px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    width: 734px;
+}
+.about-me {
+    position: absolute;
+    top: 106px;
+    left: 4px;
+    font-size: 64px;
+    font-family: Sigmar;
+}
+.group-child {
+    position: absolute;
+    top: 68px;
+    left: 781px;
+    border-radius: 0%;
+    background-color: #fccf56;
+    width: 500px;
+    height: 500px;
+}
+.mask-group-icon {
+    position: absolute;
+    top: 71px;
+    left: 802px;
+    width: 407px;
+    height: 407px;
+    object-fit: cover;
+}
+.group-item {
+    position: absolute;
+    top: 0px;
+    left: 758px;
+    border-radius: 50%;
+    background-color: #3b8dbd;
+    width: 180px;
+    height: 180px;
+}
+.hey-there-as-a-design-student-parent {
+    width: 100%;
+    position: relative;
+    height: 568px;
+    text-align: left;
+    font-size: 20px;
+    color: #000;
+    font-family: Unbounded;
+}
+
+.about-container{
+  margin: 0;
+  line-height: normal;
+}
